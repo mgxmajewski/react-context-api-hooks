@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 export const ScoreboardContext = React.createContext()
+
 let id = 0;
 
 export const Provider = (props) => {
